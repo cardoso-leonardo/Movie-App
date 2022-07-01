@@ -7,7 +7,7 @@
 import Foundation
 struct K {
     struct networking {
-        static let baseUrl = "https://api.themoviedb.org/3/trending/movie/week?api_key="
+        static let baseUrl = "https://api.themoviedb.org/3/movie/popular?api_key="
         static let apiKey = ""
         static let fullURL = baseUrl + apiKey
         static let imageUrl = "https://image.tmdb.org/t/p/original/"
@@ -15,5 +15,6 @@ struct K {
     
     struct tableView {
         static let cellId = "cell"
+        static let movieDetailSegue = "MovieDetail"
     }
 }
